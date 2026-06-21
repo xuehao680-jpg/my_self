@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(npm run *)",
+      "Bash(curl *)",
+      "Bash(lsof -i:5173)",
+      "Bash(npm ls *)",
+      "Bash(node *)",
+      "Bash(npm uninstall *)",
+      "Bash(npm install *)"
+    ]
+  }
+}
